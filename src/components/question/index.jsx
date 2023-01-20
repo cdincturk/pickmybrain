@@ -4,7 +4,7 @@ import { Header } from "./header";
 
 function Question() {
   return (
-    <div>
+    <div className="bg-red-200 flex flex-col border border-solid rounded-md p-4 mt-4">
       <Header />
       <Body />
     </div>
